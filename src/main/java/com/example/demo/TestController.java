@@ -11,6 +11,6 @@ public class TestController {
 	@RequestMapping("/get/{name}")
 	public String showData(@PathVariable("name") String name)
 	{
-		return "Hi "+name +"welcome";
+		return "Hi "+name +"welcome" + "dev";
 	}
 }
